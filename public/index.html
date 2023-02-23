@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Miftahul Janna Portfolio</title>
+</head>
+
+<body>
+  <!-- sticky top-0 z-10 mt-0 -->
+  <!-- Navbar Start -->
+  <header class="absolute top-0 left-0 w-full">
+    <nav class=" font-nunito text-gray-800 md:py-2 bg-white md:drop-shadow-md shadow-orange-600">
+      <div
+        class="container w-screen mx-auto py-5 px-4 grid gap-x-2 md:flex items-center md:justify-between md:py-0 lg:w-10/12">
+        <div class="hamburger text-4xl flex justify-between items-center z-10">
+          <a class="logo text-2xl font-extrabold lg:text-3xl" href="index.html">M<span
+              class="text-orange-300">i</span>f</a>
+          <div class="hamburger">
+            <button id="toggle_open" class="nav-toggle__open md:hidden"><i class="fa-solid fa-bars"></i></button>
+            <button id="toggle_close" class="nav-toggle__close hidden"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+        </div>
+        <!-- absolute top-16 w-11/12 bg-white md:static md:top-0 -->
+        <div class="menu hidden md:flex md:justify-between md:items-center md:gap-x-4 lg:gap-x-8 ">
+          <ul class="nav-links grid gap-y-1 text-lg mt-3 md:flex md:gap-x-4 md:items-center md:mt-0 lg:gap-x-8">
+            <li class="menuItem hover:text-orange-500 font-bold py-4 text-orange-500"><a class="" href="#hero">Home</a>
+            </li>
+            <li class="menuItem hover:text-orange-500 py-4"><a class="" href="#project">Project</a></li>
+            <li class="menuItem hover:text-orange-500 py-4"><a class="" href="/">Blog</a></li>
+            <li class="menuItem py-4"><a class="hover:bg-orange-100 hover:text-orange-400 bg-orange-400 text-white py-4 px-12 rounded-md md:border-solid md:border-orange-400 md:border-2 md:text-orange-400 md:py-2 md:px-5 md:bg-transparent md:hover:text-orange-400
+              " href="/">CV</a></li>
+          </ul>
+          <!-- <ul class="nav-links grid gap-y-1 text-lg">
+            <li class="py-4"><a class="hover:bg-orange-100 hover:text-orange-400 bg-orange-400 text-white py-4 px-12 rounded-md md:border-solid md:border-orange-400 md:border-2 md:text-orange-400 md:py-2 md:px-5 md:bg-transparent md:hover:text-orange-400
+            " href="/">CV</a></li>
+          </ul> -->
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar End -->
+
+  <!-- Hero Section Start-->
+  <section id="hero" class="static mt-12 pt-12 font-nunito md:pt-0 md:mt-28 lg:mt-44">
+    <div class="container w-screen px-4 mx-auto lg:w-10/12">
+      <!-- <div class="w-screen px-4"> -->
+      <div class="title">
+        <span class="text-orange-300 text-2xl lg:text-3xl">Hi!👋 I'm</span>
+        <h1 class="text-4xl font-semibold mt-2 md:text-5xl lg:mt-3">Miftahul Janna</h1>
+        <div class="links text-md mt-3 lg:text-lg lg:mt-5">
+          <ul class="flex flex-wrap gap-x-2 font-light leading-relaxed md:gap-x-6">
+            <li class="">
+              <i class="fa-solid fa-envelope text-orange-500"></i>
+              <a class="text-gray-500" href="miftahuljna127@gmail.com">
+                miftahuljna127@gmail.com
+              </a>
+            </li>
+            <li class="">
+              <i class="fa-brands fa-linkedin-in text-orange-500"></i>
+              <a class="text-gray-500" href="https://www.linkedin.com/in/miftahuljanna/"
+                target="_blank">linkedin.com/in/miftahuljanna</a>
+            </li>
+            <li class="">
+              <i class="fa-sharp fa-solid fa-link text-xs text-orange-500"></i>
+              <a class="text-gray-500" href="https://linktr.ee/miftaa.td" target="_blank">
+                https://linktr.ee/miftaa.td
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class=" description">
+        <h4 class="text-base font-normal mt-10 text-gray-700 lg:text-lg">
+          Lulusan bidang Teknik Informatika, individu yang teliti dan optimis, selalu ingin memperluas pengalaman dan
+          pengetahuan. Dapat bekerja sama dan berkolaborasi dengan berbagai tim. Mencari peluang kerja yang
+          memberikan
+          peluang untuk berkembang menjadi karir profesional.
+        </h4>
+      </div>
+      <!-- </div> -->
+    </div>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- Project Section Start -->
+  <section id="project" class="projects static pt-10 mt-14 pb-10 font-nunito md:mt-16 bg-stone-50 lg:mt-38">
+    <div class="container w-screen px-4 mx-auto lg:w-10/12">
+      <div class="project-heading">
+        <h2 class="text-2xl font-bold text-orange-500 md:text-3xl lg:text-4xl">Project</h2>
+      </div>
+      <!-- Filter -->
+      <ul class="mt-4 project-filter flex gap-2 md:text-lg lg:mt-8 lg:gap-8">
+        <li id="all"
+          class="btnFilter active border-solid border-b-2 border-orange-200 rounded-md px-3 py-1 text-gray-600 cursor-pointer active:text-orange-600"
+          data-filter="all">
+          All
+        </li>
+        <li id="design" class="btnFilter rounded-md px-3 py-1  text-gray-600 cursor-pointer" data-filter="design">Design
+        </li>
+        <li id="coding" class="btnFilter rounded-md px-3 py-1 text-gray-600 cursor-pointer" data-filter="coding">Coding
+        </li>
+      </ul>
+      <div id="projectContainer" class="project-list mt-8 flex flex-wrap gap-x-px gap-y-6 ">
+        <div id="wrap"
+          class="project flex flex-wrap gap-x-px gap-y-10 md:grid md:grid-cols-2 md:gap-x-6 lg:grid-cols-3 lg:gap-y-8">
+          <article id="project-item" class="projectItem w-full " data-item="design">
+            <div class="image-project overflow-hidden rounded-md h-56">
+              <img src="./img/Cover PIWCom.png" alt="" class="w-full object-cover">
+            </div>
+            <div class="description-project mt-4 md:mt-6">
+              <a id="title" class="font-extrabold text-xl text-orange-600" href="../public/project/piwcom.html"
+                target="_blank">Website Community
+                "PIWCom"</a>
+              <p id="description" class="text-md mt-2 text-gray-600">PIWCom adalah platform yang memperkenalkan
+                komunitas dari berbagai macam bidang mulai dari UI Design hingga bidang Development.</p>
+              <ul class="text-sm mt-4 flex gap-x-2 md:gap-x-4 lg:text-base lg:mt-6">
+                <li class="border-solid border-2 border-orange-300 rounded-md px-3 py-1 bg-orange-300 text-orange-900">
+                  <a id="linkPertama" href="https://dribbble.com/shots/20280281-PIWCom-Community-Website">Dribbble</a>
+                </li>
+                <li class="border-solid border-2 border-orange-300 rounded-md px-3 py-1 text-orange-900">
+                  <a id="linkKedua" href="">Prototype</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article id="project-item" class="projectItem w-full" data-item="coding">
+            <div class="image-project overflow-hidden rounded-md h-56">
+              <img src="./img/Winamp 1.png" alt="" class="w-full object-cover">
+            </div>
+            <div class="description-project mt-4 md:mt-6">
+              <a id="title" class="font-extrabold text-xl text-orange-600" href="" target="_blank">Redesign Winamp
+                Application</a>
+              <p id="description" class="text-md mt-2 text-gray-600">Winamp merupakan suatu pemutar media musik dan
+                video. Redesign disesuaikan dengan trend masa kini untuk menjadikan aplikasi menarik.
+              </p>
+              <ul class="text-sm mt-4 flex gap-x-2 md:gap-x-4 lg:text-base lg:mt-6">
+                <li class="border-solid border-2 border-orange-300 rounded-md px-3 py-1 bg-orange-300 text-orange-900">
+                  <a id="linkPertama"
+                    href="https://dribbble.com/shots/20500264-Redesign-Winamp-Application">Dribbble</a>
+                </li>
+                <li class="border-solid border-2 border-orange-300 rounded-md px-3 py-1 text-orange-900">
+                  <a id="linkKedua" href="">Prototype</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article id="project-item" class="projectItem w-full " data-item="design">
+            <div class="image-project overflow-hidden rounded-md h-56">
+              <img src="./img/Craigslist I.png" alt="" class="w-full object-cover">
+            </div>
+            <div class="description-project mt-4 md:mt-6">
+              <a id="title" class="font-extrabold text-xl text-orange-600" href="" target="_blank">Redesign
+                Website Craigslist</a>
+              <p id="description" class="text-md mt-2 text-gray-600">PIWCom adalah design yang dilakukan untuk
+                memperbarui tugas hasil
+                design mata kuliah saat
+                perkuliahan.</p>
+              <ul class="text-sm mt-4 flex gap-x-2 md:gap-x-4 lg:text-base lg:mt-6">
+                <li class="border-solid border-2 border-orange-300 rounded-md px-3 py-1 bg-orange-300 text-orange-900">
+                  <a id="linkPertama" href="">Dribbble</a>
+                </li>
+                <li class="border-solid border-2 border-orange-300 rounded-md px-3 py-1 text-orange-900">
+                  <a id="linkKedua" href="">Prototype</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article id="project-item" class="projectItem w-full " data-item="coding">
+            <a href="www.borneodesti.epizy.com">
+              <div class="image-project overflow-hidden rounded-md h-56">
+                <img src="/public/img/borneo desti.PNG" alt="" class="w-full object-cover">
+              </div>
+            </a>
+            <div class="description-project mt-4 md:mt-6">
+              <a id="title" class="font-extrabold text-xl text-orange-600" href="" target="_blank">Borneo Desti</a>
+              <p id="description" class="text-md mt-2 text-gray-600">Website info destinasi wisata, budaya,
+                religi dan sejarah yang ada di pulau Borneo (Kalimantan) sebagai
+                pengenalan ragam budaya Indonesia.</p>
+              <ul class="text-sm mt-4 flex gap-x-2 md:gap-x-4 lg:text-base lg:mt-6">
+                <li class="border-solid border-2 border-orange-300 rounded-md px-3 py-1 bg-orange-300 text-orange-900">
+                  <a id="linkPertama" href="">GitHub</a>
+                </li>
+                <li class="border-solid border-2 border-orange-300 rounded-md px-3 py-1 text-orange-900">
+                  <a id="linkKedua" href="http://www.borneodesti.epizy.com/?i=1">Live View</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Project Section End -->
+
+  <!-- Social Media Section Start -->
+  <section class="card absolute lg:top-1/2 lg:left-0 bg-slate-100 p-2 rounded-md hidden">
+    <ul class="grid lg:gap-y-4 lg:text-lg justify-items-center text-slate-400">
+      <li>
+        <a href=""><i class="fa-brands fa-medium"></i></a>
+      </li>
+      <li>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </li>
+      <li>
+        <a href=""><i class="fa-solid fa-basketball"></i></a>
+      </li>
+      <li>
+        <a href=""><i class="fa-brands fa-behance"></i></a>
+      </li>
+      <li>
+        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+      </li>
+    </ul>
+  </section>
+  <!-- Social Media Section End -->
+  <footer class="py-6 mx-auto mt-4 container w-screen px-4 lg:w-10/12">
+    <ul class="flex gap-x-6 lg:text-xl justify-center text-orange-400 items-center">
+      <li class="hover:bg-orange-200 p-1 rounded-md">
+        <a href="https://medium.com/@miftahul_janna" target="_blank"><i class="fa-brands fa-medium"></i></a>
+      </li>
+      <li class="hover:bg-orange-200 p-1 rounded-md">
+        <a href="https://github.com/miftahuljna127" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </li>
+      <li class="hover:bg-orange-200 p-1 rounded-md">
+        <a href="https://dribbble.com/Miftahul_Janna" target="_blank"><i class="fa-solid fa-basketball"></i></a>
+      </li>
+      <li class="hover:bg-orange-200 p-1 rounded-md">
+        <a href="https://www.behance.net/miftahuljanna" target="_blank"><i class="fa-brands fa-behance"></i></a>
+      </li>
+      <li class="hover:bg-orange-200 p-1 rounded-md">
+        <a href="https://www.instagram.com/miftaa.td/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+      </li>
+    </ul>
+    <p class="text-center text-gray-400  mt-2">&copy; Miftahul Janna <span class="text-orange-500">|</span> 2023</p>
+  </footer>
+</body>
+
+<script src="./js/script.js"></script>
+
+</html>
